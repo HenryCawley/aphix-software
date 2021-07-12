@@ -1,0 +1,41 @@
+.container {
+    width:350px;
+}
+
+.logo {
+  width:132px;
+}
+
+.logoText {
+  position:absolute;
+  width:150px;
+  top:6px;
+  padding:0 0 0 35px;
+  margin-top:20px;
+  font-size:14px;
+  line-height:1.3em;
+  color:#fff;
+  font-family: Roboto;
+  font-weight: 300;
+}
+
+.logoText::before {
+  content:"";
+  position:absolute;
+  left:20px;
+  width:1px;
+  height:52px;
+  background-color: #fff;
+}
+
+@media (max-width: 992px) {
+  .logoText {
+    display:none;
+  }
+}
+
+@media (max-width: 768px) {
+  .logo {
+    width:72px;
+  }
+}

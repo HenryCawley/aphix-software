@@ -1,0 +1,23 @@
+.container {
+  text-align: center;
+  width:100%;
+  padding-top:40px;
+}
+
+.container h2 {
+  font-size: 30px;
+  color:#1f1b37;
+  font-family:poppins;
+}
+
+.container p {
+  font-size:22px;
+  color: #3383d9;
+}
+
+.container iframe {
+  width:50%;
+  height:500px;
+  left:10%;
+  border:none;
+}

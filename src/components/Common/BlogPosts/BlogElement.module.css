@@ -1,0 +1,42 @@
+.container {
+  background-color: #fff;
+  margin:15px;
+  flex:1;
+  text-align:left;
+  padding:10px;
+}
+
+.container img {
+  width:100%;
+}
+
+.container h2 {
+  padding-left: 15px;
+}
+
+.container p {
+  padding-left: 15px;
+}
+
+.container .author {
+  display: flex;
+  padding-left: 15px;
+}
+
+.container .author .authorName {
+  font-size: 15px;
+  color: #000;
+  padding-left:10px;
+  line-height: 20px;
+}
+
+.container .author .authorName span {
+  font-size: 16px;
+  color:#3383d9;
+}
+
+.container .author img {
+  width:40px;
+  height:40px;
+  display:inline-block;
+}

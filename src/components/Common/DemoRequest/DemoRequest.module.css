@@ -1,0 +1,86 @@
+.container {
+  width:100%;
+}
+
+.container .demoRequestBanner {
+  text-align: center;
+  color:#fff;
+  background-color: #1f1b37;
+  padding:80px 15px;
+}
+
+.container .triangle {
+  width:0px;
+  margin-left:auto;
+  margin-right:auto;
+  border-top:30px solid #1f1b37;
+  border-left:30px solid transparent;
+  border-right:30px solid transparent;
+}
+
+.container .demoRequestBanner h2 {
+  margin: 0 0 15px 0;
+  font-size: 40px;
+  font-family:poppins;
+  font-weight: 500;
+}
+
+.container .demoRequestBanner h3 {
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.3em;
+  font-family:poppins;
+  font-weight: 300;
+}
+
+.container .demo {
+  display: flex;
+  width:60%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top:30px;
+}
+
+.container .demo .testimonial {
+  flex:1;
+  display: flex;
+  font-size: 22px;
+  margin: 0 0 15px 0;
+  line-height: 1.3em;
+  flex-direction: column;
+}
+
+.container .demo .testimonials span {
+  font-size:10px;
+}
+
+.container .demo .testimonial img {
+  width:65%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:20px;
+}
+
+.container .demo .demoRequestForm {
+  flex:2;
+  display: flex;
+  flex-direction: column;
+}
+
+.container .demo .demoRequestForm .requestButton {
+  background: #d4026e;
+  width:30%;
+  margin: 0 auto 10px auto;
+  transition: all .3s ease-in-out;
+  border: none;
+  text-transform: uppercase;
+  color: white;
+  font-weight:bold;
+  border-radius: 6px;
+  padding: 15px 35px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  cursor: pointer;
+}

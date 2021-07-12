@@ -1,0 +1,21 @@
+.header {
+  background-color: #1f1b37;
+  height:125px;
+}
+
+.header .container {
+  display:flex;
+
+  padding-left:15px;
+  padding-right:15px;
+  width:1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top:20px;
+}
+
+.navigation {
+  display:flex;
+  width:900px;
+  flex-direction: column;
+}

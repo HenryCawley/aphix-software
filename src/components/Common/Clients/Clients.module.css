@@ -1,0 +1,40 @@
+.container {
+  margin:50px;
+  text-align: center;
+}
+
+.container h2 {
+  margin: 0 0 15px 0;
+  font-size: 30px;
+  color: #1f1b37;
+  font-family:poppins;
+  font-weight: 400;
+}
+
+.container h3 {
+  width:45%;
+  margin-left:auto;
+  margin-right:auto;
+  font-size: 20px;
+  line-height: 1.3em;
+  color: #3383d9;
+  font-family:poppins;
+  font-weight:300;
+  margin-bottom:50px;
+}
+
+.container .brandContainer {
+  display: flex;
+  flex:1;
+  width:60%;
+  margin:20px auto 50px auto;
+  padding-top:20px;
+}
+
+.container .brandContainer img {
+  justify-content: space-around;
+  margin-left: auto;
+  margin-right: auto;
+  top:50%;
+  transform:translateY(-50%);
+}

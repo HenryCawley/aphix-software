@@ -1,0 +1,16 @@
+.container {
+  color:#fff;
+  text-align: center;
+  background: linear-gradient(90deg, #D4026E 0%, #1080C4 100%);
+  padding:50px;
+}
+
+.container h2 {
+  margin: 0 0 25px 0;
+  font-size:30px;
+  font-family:poppins;
+}
+
+.container p {
+
+}

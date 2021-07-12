@@ -1,0 +1,25 @@
+.container {
+  background-image: url('../../../assets/HomepageBanner.jpg');
+  background-repeat:no-repeat;
+  width:100%;
+  background-size:cover;
+}
+
+.bannerText {
+  padding-top:200px;
+  padding-left:300px;
+  color:#fff;
+  width:600px;
+  padding-bottom:300px;
+}
+
+.bannerText h2 {
+  font-size:50px;
+  line-height: 50px;
+}
+
+.bannerText span {
+  margin: 15px 0;
+  font-size: 22px;
+  font-weight: 400;
+}

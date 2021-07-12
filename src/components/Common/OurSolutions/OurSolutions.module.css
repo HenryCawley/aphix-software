@@ -1,0 +1,27 @@
+.container {
+  text-align: center;
+  padding-top:50px;
+  width:100%;
+  margin-top:50px;
+  background-color: #F6F9FC;
+}
+
+.container h2 {
+  font-size: 30px;
+  color:#1f1b37;
+  font-family:poppins;
+}
+
+.container p {
+  font-size:17px;
+  color: #3383d9;
+}
+
+.tile {
+  display:flex;
+  justify-content:space-around;
+  width:60%;
+  margin-left:auto;
+  margin-right: auto;
+  margin-top:100px;
+}

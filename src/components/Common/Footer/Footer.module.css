@@ -1,0 +1,30 @@
+.container {
+    background-color: #1f1b37;
+}
+
+.container .footerNavigation {
+    background-color: #1f1b37;
+    display:flex;
+    color:#fff;
+    width:60%;
+    padding-top:50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container .footerNavigation .footerColumn {
+  flex:1;
+}
+
+.container .footerNavigation .footerColumn h2 {
+  text-transform: uppercase;
+  font-size:20px;
+}
+
+.container .footerNavigation .footerColumn span {
+  font-size:15px;
+  display: block;
+  line-height: 17px;
+  font-family:poppins;
+  font-weight:300;
+}

@@ -1,0 +1,35 @@
+.container {
+  background-color: #1f1b37;
+  padding-top:80px;
+  padding-bottom:60px;
+}
+
+.tiles {
+  width:80%;
+  margin-left: auto;
+  margin-right: auto;
+  display:flex;
+  justify-content: space-around;
+}
+
+.container h2 {
+  color:#fff;
+  font-size:30px;
+  line-height: 30px;
+  margin:0 0 0 0;
+  margin-bottom:5px;
+  font-family:poppins;
+  font-weight:400;
+  text-align: center;
+}
+
+.container h3 {
+  color:#fff;
+  font-size:26px;
+  line-height: 26px;
+  margin-top:30px;
+  margin-bottom:60px;
+  font-family:poppins;
+  font-weight:400;
+  text-align: center;
+}

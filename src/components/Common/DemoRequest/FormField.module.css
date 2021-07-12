@@ -1,0 +1,25 @@
+.container {
+  display:flex;
+  padding:10px;
+}
+
+.container .formTag {
+  flex:1;
+  font-size: 15px;
+  height:50px;
+  padding:10px 0 0 15px;
+  font-family: poppins;
+  font-weight:500;
+}
+
+.container input {
+  flex:3;
+  width: 100%;
+  height: 30px;
+  padding: 10px;
+  padding-left:15px;
+  background-color: #e6ecf2;
+  border-radius: 6px;
+  border: none;
+  font-size:17px;
+}

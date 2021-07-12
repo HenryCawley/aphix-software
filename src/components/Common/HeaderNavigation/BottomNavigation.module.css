@@ -1,0 +1,18 @@
+.container {
+  display:flex;
+  justify-content: space-between;
+  width:800px;
+  margin-left:100px;
+}
+
+.RequestDemo {
+  text-transform: uppercase;
+  padding:7px 9px 7px 9px;
+  color:#000!important;
+  border-radius: 6px;
+  background-color: #fff;
+  border:none;
+  font-family: roboto;
+  font-weight:bold;
+  font-size:17px;
+}

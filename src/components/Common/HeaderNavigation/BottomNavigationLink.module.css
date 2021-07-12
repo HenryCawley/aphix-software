@@ -1,0 +1,20 @@
+.text {
+  color:#fff;
+  text-transform: uppercase;
+  padding-top:7px;
+  font-size:17px;
+  line-height: 1.3em;
+}
+
+.text::after {
+  content:'';
+  position:relative;
+  top:-2px;
+  left:3px;
+  display:inline-block;
+  width:0px;
+  height:0px;
+  border-top:5px solid #fff;
+  border-left:5px solid transparent;
+  border-right:5px solid transparent;
+}
